@@ -58,29 +58,8 @@ The device uses buttons to emulate the functions of 2 infrared sensors that woul
 The system counts the number of people entering and leaving the site and displays it on an LCD screen. In the event that a person enters the site, first the button connected to pin RB7 and then the button connected to pin RB5 of the Curiosity Nano must be shut off (without leaving it pressed), and in the event that a person leaves, the process is reversed, first the RB5 button is shut off and then the RB7 button.
 
 The system allows you to set the maximum capacity, holding the button connected to the RA4 pin for 3 seconds, you can enter the "Configuration" section where you can navigate between 2 options, "Sum" and "Subtraction" by pressing the button once, to select one of the 2, press the same button for 5 seconds, then you have the option to change the maximum capacity of 10 in 10, to confirm and exit the menu, press the button again for 5 seconds.
+
+
 Each option is displayed on the LCD. 
 
-Counter mode
-<a href="https://ibb.co/xFkn23q"><img src="https://i.ibb.co/QDgWJXv/1.jpg" alt="1" border="0"></a>
 
-Entering the configuration mode -> Option Sum 
-<a href="https://ibb.co/6ZFpNKv"><img src="https://i.ibb.co/QcMqXW8/2.jpg" alt="2" border="0"></a>
-
-->Option Subtraction
-<a href="https://ibb.co/ZVN55bD"><img src="https://i.ibb.co/0cQTTzb/3.jpg" alt="3" border="0"></a>
-
-Election option subtraction
-<a href="https://ibb.co/d26Ccff"><img src="https://i.ibb.co/yy5vRNN/4.jpg" alt="4" border="0"></a>
-
-Executing operation ( subtract 10 in 10)
-<a href="https://ibb.co/qCrkSjR"><img src="https://i.ibb.co/68WgMw4/5.jpg" alt="5" border="0"></a>
-
-Exiting configuration mode
-<a href="https://ibb.co/g7qJnbW"><img src="https://i.ibb.co/6Z9Fdct/6.jpg" alt="6" border="0"></a>
-
-Counter mode
-<a href="https://ibb.co/48rGMLJ"><img src="https://i.ibb.co/9b5L20G/7.jpg" alt="7" border="0"></a>
-
-When the number of people exceeds the established maximum capacity, a led indicator lights up, and this will not go out until the number of people is again less than or equal to the permitted capacity. 
-
-<a href="https://ibb.co/c2VLqvP"><img src="https://i.ibb.co/p45yqPg/led.jpg" alt="led" border="0"></a>
